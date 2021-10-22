@@ -13,5 +13,6 @@ void main() {
       '/home': (context) => Home(),
       '/location': (context) => ChooseLocation()
     },
+    debugShowCheckedModeBanner: false,
   ));
 }

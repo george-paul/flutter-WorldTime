@@ -50,9 +50,9 @@ class _HomeState extends State<Home> {
                       ? Icons.wb_sunny_outlined
                       : Icons.nightlight_outlined,
                   color:
-                      (data['isDayTime']) ? Colors.yellow[700] : Colors.white60,
+                      (data['isDayTime']) ? Colors.yellow[800] : Colors.white60,
                   size: 100,
-                  blurRadius: 40,
+                  blurRadius: 20,
                 ),
               ),
               Row(
